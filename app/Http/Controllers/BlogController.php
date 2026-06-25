@@ -17,7 +17,7 @@ class BlogController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating asdasda new resource.
      */
     public function create()
     {
