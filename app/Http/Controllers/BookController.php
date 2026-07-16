@@ -12,7 +12,9 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        $posts = collect();
+
+        return view('posts.index', compact('posts'));
     }
 
     /**

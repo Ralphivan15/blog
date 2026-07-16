@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Blog;
@@ -13,6 +14,7 @@ Route::get('/', function () {
 });
 
 Route::resource('blogs', BlogController::class);
+Route::get('/posts', [BookController::class, 'index'])->name('posts.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
