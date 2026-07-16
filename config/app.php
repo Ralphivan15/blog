@@ -86,7 +86,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key umay naman
+    | Encryption Key umay naman dagdag ulit
     |--------------------------------------------------------------------------
     |
     | This key is utilized by Laravel's encryption services and should be set
